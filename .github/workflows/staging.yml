@@ -31,10 +31,10 @@ jobs:
             
             - name: Build Docker image
               run: |
-                docker build -t gitops-staging:latest1 .
+                docker build -t vitoudev9/gitops-staging:latest1 .
 
             - name: Push Docker image
               run: |
-                docker push gitops-staging:latest1
+                docker push vitoudev9/gitops-staging:latest1
 
             
